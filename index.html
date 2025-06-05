@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohamed Sherif | PS4 Host</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(-45deg, #8B0000, #000000, #8B0000, #000000);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #FF0000;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #f0f0f0;
+      margin-bottom: 30px;
+    }
+
+    .payload-button {
+      background-color: transparent;
+      border: 2px solid #FF0000;
+      color: #FF0000;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .payload-button:hover {
+      background-color: #FF0000;
+      color: #000;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .slogan {
+      font-size: 20px;
+      color: #FF4444;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my host ya as7aby</h1>
+  <h2>By Mohamed Sherif</h2>
+  <div class="tagline">
+    ✅ MNT Group | ✅ ABUTALEN | ✅ العالمي الاصلي
+  </div>
+
+  <button class="payload-button" onclick="sendPayload('goldhen_900.bin')">GoldHen 9.00</button>
+  <button class="payload-button" onclick="sendPayload('ftp.bin')">FTP</button>
+  <button class="payload-button" onclick="sendPayload('app2usb.bin')">App2USB</button>
+
+  <div class="slogan">الأهلي فوق الجميع ❤️🦅</div>
+
+  <div class="footer">© 2025 Mohamed Sherif - All Rights Reserved</div>
+
+  <script>
+    function sendPayload(fileName) {
+      alert("🔫 Sending payload: " + fileName);
+      // هنا ممكن تضيف كود الإرسال الفعلي لو معاك جهاز PS4
+    }
+  </script>
+</body>
+</html>
